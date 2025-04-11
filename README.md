@@ -1,5 +1,5 @@
 # 📺 Netflix Data Exploration with SQL
-
+![Netflix Logo](logo.png)
 Welcome! This project dives into Netflix's catalog of movies and TV shows using SQL. I worked with a real dataset to answer a set of business-relevant questions and uncover patterns in content types, genres, countries, and release trends. It’s a practical demonstration of how SQL can be used for data storytelling.
 
 ---
