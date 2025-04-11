@@ -22,7 +22,8 @@ SELECT COUNT(*) FROM NETFLIX;
 SELECT * FROM NETFLIX;
 
 
--- Business Problems & Solutions
+-- Business Problems &  Solutions of 15 business problems
+
 --1. Count the number of Movies vs TV Shows
 	 SELECT type, COUNT(type) FROM netflix
 	 GROUP BY type;
@@ -33,12 +34,13 @@ SELECT * FROM NETFLIX;
              RANK() OVER (PARTITION BY type ORDER BY count(rating) desc ) AS rank 
 		     FROM netflix
 			 GROUP BY 1,2 )
-	 WHERE rank = 1
-	 GROUP BY 1,2;
+     WHERE rank = 1
+     GROUP BY 1,2;
 
 --3. List all movies released in a specific year (e.g., 2020)
-     SELECT title,release_year FROM netflix
-	 WHERE release_year = 2020;
+     SELECT title,release_year 
+	FROM netflix
+	WHERE release_year = 2020;
 
 --4. Find the top 5 countries with the most content on Netflix
      SELECT UNNEST(STRING_TO_ARRAY(country,','))AS new_country, COUNT(show_id) AS content FROM netflix
@@ -105,9 +107,9 @@ SELECT * FROM NETFLIX;
 	  ORDER BY 2 DESC
 	  LIMIT 10;
       
---15. Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
-    --the description field. Label content containing these keywords as 'Bad' and all other 
-    --content as 'Good'. Count how many items fall into each category. 
+--15. Categorize the content based on the presence of the keywords 'kill' and 'violence' in the description field. 
+    --Label content containing these keywords as 'Bad' and all other content as 'Good'.
+    --Count how many items fall into each category. 
       SELECT 
 	   CASE 
 	       WHEN description ILIKE '%kill%' OR description ILIKE '%violence%' 
