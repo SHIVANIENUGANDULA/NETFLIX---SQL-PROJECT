@@ -79,6 +79,7 @@ This project helped sharpen my ability to:
 - `Schemas.sql`: Table creation script
 - `Business Problems`: Some real life Business problems
 - `Solutions_of_BusinessProblems.sql`: Business problem solutions
+- `logo.png`: Netflix Logo
 - `README.md`: You're reading it 🙂
 
 ---
