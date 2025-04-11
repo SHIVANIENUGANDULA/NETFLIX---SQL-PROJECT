@@ -59,7 +59,7 @@ Some of the key questions I answered using SQL include:
 - Which actors appear most often in Indian content?
 - Are there shows that mention violence or killing in their descriptions?
 
-All SQL queries are included in the project files under `BUSINESS PROBLEMS` and solutions for the problems in `Solutions_of_business_problems.sql`.
+All SQL queries are included in the project files under `Business Problems` and solutions for the problems in `Solutions_of_BusinessProblems.sql`.
 
 ---
 
@@ -77,8 +77,8 @@ This project helped sharpen my ability to:
 
 - `netflix_titles.csv`: Raw dataset
 - `Schemas.sql`: Table creation script
-- `BUSINESS PROBLEMS`: Some real life Business problems
-- `Solutions_of_business_problems.sql`: Business problem solutions
+- `Business Problems`: Some real life Business problems
+- `Solutions_of_Business Problems.sql`: Business problem solutions
 - `README.md`: You're reading it 🙂
 
 ---
