@@ -75,10 +75,10 @@ This project helped sharpen my ability to:
 
 ## 📂 Files in This Repo
 
-- `netflix_titles.csv`: Raw dataset
+- `Netflix_titles.csv`: Raw dataset
 - `Schemas.sql`: Table creation script
 - `Business Problems`: Some real life Business problems
-- `Solutions_of_Business Problems.sql`: Business problem solutions
+- `Solutions_of_BusinessProblems.sql`: Business problem solutions
 - `README.md`: You're reading it 🙂
 
 ---
