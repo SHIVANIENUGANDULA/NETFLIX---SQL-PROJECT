@@ -1,28 +1,28 @@
 -- CREATING TABLE IN DB
-create table netflix (
-show_id varchar(15),
-type varchar(15),
-title varchar(150),
-director varchar(250),
-casts varchar(1000),
-country	varchar(100),
-date_added	varchar(50),
-release_year INT,
-rating	varchar(10),
-duration varchar(15),
-listed_in	varchar(100),
-description varchar(250))
-
--- ADJUSTED NO.OF CHARACTERS IN DATA TYPE
-ALTER TABLE netflix
-ALTER COLUMN country TYPE VARCHAR(150);
+DROP TABLE IF EXISTS netflix;
+CREATE TABLE netflix
+(
+	show_id	VARCHAR(5),
+	type    VARCHAR(10),
+	title	VARCHAR(250),
+	director VARCHAR(550),
+	casts	VARCHAR(1050),
+	country	VARCHAR(550),
+	date_added	VARCHAR(55),
+	release_year	INT,
+	rating	VARCHAR(15),
+	duration	VARCHAR(15),
+	listed_in	VARCHAR(250),
+	description VARCHAR(550)
+);
 
 -- IMPORTED THE TABLE VALUES FROM CSV
 SELECT COUNT(*) FROM NETFLIX;
+
+-- CHECK IF DATA IS IMPORTED WITHOUT ANT ERRORS
 SELECT * FROM NETFLIX;
 
-
--- Business Problems &  Solutions of 15 business problems
+-- BUSINESS PROBLEMS & SOLUTIONS OF 15`BUSINESS PROBLEMS`
 
 --1. Count the number of Movies vs TV Shows
 	 SELECT type, COUNT(type) FROM netflix
