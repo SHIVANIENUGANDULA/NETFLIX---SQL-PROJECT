@@ -78,7 +78,7 @@ This project helped sharpen my ability to:
 - `netflix_titles.csv`: Raw dataset
 - `Schemas.sql`: Table creation script
 - `BUSINESS PROBLEMS`: Some real life Business problems
-- - `Solutions_of_business_problems.sql`: Business problem solutions
+- `Solutions_of_business_problems.sql`: Business problem solutions
 - `README.md`: You're reading it 🙂
 
 ---
