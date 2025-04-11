@@ -88,6 +88,7 @@ This project helped sharpen my ability to:
 
 Hi, I’m Shivani – a data analyst passionate about turning numbers into actionable stories. I built this project to deepen my SQL skills and showcase how even simple queries can unlock meaningful insights from entertainment data.
 
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/shivanienugandula)
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/shivanienugandula/)
+
 
 ---
